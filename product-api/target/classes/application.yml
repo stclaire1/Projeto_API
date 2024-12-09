@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongoDB{URI}
+      database: product-api
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
